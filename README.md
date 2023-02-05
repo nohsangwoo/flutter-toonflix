@@ -2,6 +2,8 @@
 
 # about api
 
+- base url: https://webtoon-crawler.nomadcoders.workers.dev
+
 - '/today': Returns today's comics
 - '/:id': Returns a comic's information by 'id'
 - '/:id/episodes': Returns the latest episodes for a comic by 'id'

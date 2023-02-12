@@ -30,21 +30,25 @@ class Webtoon extends StatelessWidget {
       },
       child: Column(
         children: [
-          Container(
-            // 그림이 Container의 영역을 초과하는 경우 어떻게 처리할 것인지.
-            // hardEdge는 초과하는 영역은 잘라버린다.
-            clipBehavior: Clip.hardEdge,
-            width: 250,
-            decoration: BoxDecoration(
-                borderRadius: BorderRadius.circular(15),
-                boxShadow: [
-                  BoxShadow(
-                    blurRadius: 15,
-                    offset: const Offset(10, 10),
-                    color: Colors.black.withOpacity(0.5),
-                  )
-                ]),
-            child: Image.network(thumb),
+          // 애니메이션을 줄 수 있는 widget
+          Hero(
+            tag: id,
+            child: Container(
+              // 그림이 Container의 영역을 초과하는 경우 어떻게 처리할 것인지.
+              // hardEdge는 초과하는 영역은 잘라버린다.
+              clipBehavior: Clip.hardEdge,
+              width: 250,
+              decoration: BoxDecoration(
+                  borderRadius: BorderRadius.circular(15),
+                  boxShadow: [
+                    BoxShadow(
+                      blurRadius: 15,
+                      offset: const Offset(10, 10),
+                      color: Colors.black.withOpacity(0.5),
+                    )
+                  ]),
+              child: Image.network(thumb),
+            ),
           ),
           const SizedBox(
             height: 10,

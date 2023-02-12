@@ -1,5 +1,10 @@
 # toonflix
 
+## 동작 화면 (gif파일 있음 로딩 기다려주세요..)
+
+<br><br>
+![1-main](./README_IMAGES/toonflix_main.gif)
+
 # about api
 
 - base url: https://webtoon-crawler.nomadcoders.workers.dev

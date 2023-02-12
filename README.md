@@ -40,4 +40,10 @@ import 'package:http/http.dart' as http;
 - FutureBuilder 는 Future 객체를 받아서 Future 객체가 완료될때까지 대기하고, 완료되면 Future 객체의 결과를 가지고 Builder를 호출한다. 예컨데 Api에서 데이터를 받아오는 경우에 사용할 수 있다.
 
 # Hero widget
+
 - 화면 전환시 애니메이션을 줄 수 있다.
+
+# 클릭하면 브라우저로 이동하게 만들기
+
+- url_launcher 패키지를 사용한다.
+- ref: https://pub.dev/packages/url_launcher

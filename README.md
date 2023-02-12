@@ -34,3 +34,7 @@ cli를 직접입력하여 인스톨 하는 방법이 있고, pubspec.yaml에 추
 <!-- 예시 -->
 import 'package:http/http.dart' as http;
 ```
+
+# FutureBuilder
+
+- FutureBuilder 는 Future 객체를 받아서 Future 객체가 완료될때까지 대기하고, 완료되면 Future 객체의 결과를 가지고 Builder를 호출한다. 예컨데 Api에서 데이터를 받아오는 경우에 사용할 수 있다.

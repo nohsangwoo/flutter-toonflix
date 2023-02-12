@@ -47,3 +47,8 @@ import 'package:http/http.dart' as http;
 
 - url_launcher 패키지를 사용한다.
 - ref: https://pub.dev/packages/url_launcher
+
+# 핸드폰 저장소에 데이터를 저장하기
+
+- shared_preferences 패키지를 사용한다.
+- ref: https://pub.dev/packages/shared_preferences
